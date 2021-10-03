@@ -1,0 +1,45 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.card {
+  padding: 35px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.signup {
+  width: 365px;
+}
+.heading {
+  display: flex;
+  color: white;
+}
+.sign {
+  width: 100%;
+  margin-top: 25px;
+  background-color: #e50914;
+  border-color: #e50914;
+}
+label {
+  /* display: inline-block; */
+  display: flex;
+  color: white;
+  margin-top: 15px;
+}
+
+.bg-light {
+  background-color: transparent !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.mainpage {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../Assets/images/back.jpg");
+  min-height: 100vh;
+  background-size: cover;
+}

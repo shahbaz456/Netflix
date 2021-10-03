@@ -1,0 +1,31 @@
+.khvUfi {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: none !important;
+}
+.khvUfi:hover:enabled,
+.khvUfi:focus:enabled {
+  background-color: transparent !important;
+}
+.img-card {
+  margin: 3px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.img-card:hover {
+  transform: scale(1.2);
+
+  overflow: hidden;
+}
+.rec-arrow-left {
+  position: absolute;
+  z-index: 1;
+  background-color: transparent !important ;
+  box-shadow: none !important;
+  border-radius: none !important;
+}
+.rec-arrow-right {
+  right: 50px;
+  position: absolute;
+  z-index: 1;
+}

@@ -1,0 +1,19 @@
+.avatar {
+  border-radius: 5px;
+  transition: 0.1s;
+}
+.avatar:hover {
+  border: 2px solid #fff;
+  transform: scale(1.04);
+  cursor: pointer;
+}
+.profile-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

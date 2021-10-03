@@ -1,0 +1,17 @@
+.main-profile {
+  background: black;
+  /* url("../../Assets/images/back.jpg"); */
+  min-height: 100vh;
+  background-size: cover;
+}
+.head {
+  margin-bottom: 2rem;
+  color: rgb(255, 255, 255);
+}
+.heading {
+  margin: 10px;
+  font-size: 1.25rem;
+}
+.avatar {
+  width: 170px;
+}

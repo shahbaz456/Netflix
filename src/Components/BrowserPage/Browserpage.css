@@ -1,0 +1,6 @@
+.browser-page {
+  background: black;
+  /* url("../../Assets/images/st.jpg"); */
+  min-height: 100vh;
+  background-size: cover;
+}

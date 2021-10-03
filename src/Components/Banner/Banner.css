@@ -1,0 +1,46 @@
+.bann {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../Assets/images/luci.jpg");
+  min-height: 100vh;
+  background-size: cover;
+}
+.div-card {
+  width: 400px;
+  background-color: transparent !important ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* left: 50%; */
+  top: 25%;
+  /* transform: translate(-115%, -35%); */
+}
+.text {
+  color: white;
+}
+.play {
+  background: white !important;
+  margin-right: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  padding: 8px;
+}
+.play:hover {
+  color: black;
+  background-color: rgb(230, 230, 230) !important;
+}
+.more {
+  padding: 8px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
